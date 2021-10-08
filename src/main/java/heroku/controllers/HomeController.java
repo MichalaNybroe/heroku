@@ -15,4 +15,9 @@ public class HomeController {
     public String hej() {
         return "hej";
     }
+
+    @GetMapping("/shout")
+    public String shout() {
+        return "greet";
+    }
 }
